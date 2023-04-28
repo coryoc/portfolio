@@ -3,21 +3,37 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+      /* Shades of gray */
+      --gray-100: #F8FAFC;
+      --gray-200: #EDF2F7;
+      --gray-300: #E2E8F0;
+      --gray-400: #CBD5E0;
+      --gray-500: #A0AEC0;
+      --gray-600: #718096;
+      --gray-700: #4A5568;
+      --gray-800: #2D3748;
+      --gray-900: #1A202C;
 
-@font-face{
-  font-family: "Arial";
-}
+      /* Primary colors */
+      --primary-100: #E6FFFA;
+      --primary-200: #B2F5EA;
+      --primary-300: #81E6D9;
+      --primary-400: #4FD1C5;
+      --primary-500: #38B2AC;
+      --primary-600: #319795;
+      --primary-700: #2C7A7B;
+      --primary-800: #285E61;
+      --primary-900: #234E52;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      /* Secondary colors */
+      --secondary-100: #FFF8E5;
+      --secondary-200: #FFE5B5;
+      --secondary-300: #FFD185;
+      --secondary-400: #FFBE56;
+      --secondary-500: #FFA827;
+      --secondary-600: #E69124;
+      --secondary-700: #BF751F;
+      --secondary-800: #995A1B;
+      --secondary-900: #7D4C18;
+
 }
