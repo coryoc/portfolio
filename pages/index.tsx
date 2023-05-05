@@ -123,6 +123,8 @@ export default function Home() {
       <p className='text-lg m-3 leading-8 py-2 px-5'>
               Here are some of the past projects I&apos;ve worked on. 
               </p>
+      
+      <div className='bg-red-300'> test</div>
       </div>
     </section>
 
