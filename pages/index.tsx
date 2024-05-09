@@ -124,7 +124,7 @@ export default function Home() {
               Here are some of the past projects I&apos;ve worked on. 
               </p>
       
-      <div className='bg-red-300'> test</div>
+      <div className='bg-red-300 flex'> test</div>
       </div>
     </section>
 
