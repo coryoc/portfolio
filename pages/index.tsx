@@ -28,39 +28,6 @@ export default function Home() {
     'TypeScript',
   ];
 
-  // useEffect(() => {
-  //   // Set up the scene
-  //   const scene = new THREE.Scene();
-  //   const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-  //   camera.position.z = 5;
-    
-  //   // Create a sphere
-  //   const geometry = new THREE.SphereGeometry(1, 32, 32);
-  //   const material = new THREE.MeshPhongMaterial({ color: 0x22223B });
-  //   const sphere = new THREE.Mesh(geometry, material);
-  //   scene.add(sphere);
-    
-  //   // Add lighting
-  //   const light = new THREE.DirectionalLight(0xffffff, 1);
-  //   light.position.set(0, 0, 10);
-  //   scene.add(light);
-    
-  //   // Create the renderer and add it to the DOM
-  //   const renderer = new THREE.WebGLRenderer({ canvas: document.querySelector("#canvas") });
-  //   renderer.setSize(window.innerWidth, window.innerHeight);
-    
-  //   // Animate the scene
-  //   function animate() {
-  //     requestAnimationFrame(animate);
-    
-  //     sphere.rotation.x += 0.01;
-  //     sphere.rotation.y += 0.01;
-    
-  //     renderer.render(scene, camera);
-  //   }
-    
-  //   animate();
-  // }, [])
 
   return (
     <div className={darkMode ? 'dark' : ""}>
@@ -81,7 +48,7 @@ export default function Home() {
             <button onClick={() => setDarkMode(!darkMode)}> test </button>
             </nav>
 
-            <div className='text-gray-800 text-center dark:text-slate-100 max-w-4xl m-auto p-4 bg-red-300 rounded-xl'>
+            <div className='text-gray-800 text-center dark:text-slate-100 max-w-4xl m-auto p-4 bg-gray-200 rounded-xl'>
               <h2 className="text-4xl py-2 font-medium">Cory Chaplin</h2>
               <h3 className='text-3xl m-3'>Software Developer and designer</h3>
               <p className='text-lg m-3 leading-8 py-2 px-5'>
@@ -116,14 +83,12 @@ export default function Home() {
     </section>
 
           {/* <canvas id="canvas"></canvas> */}
-    <section>
-      <div>
-      <h2 className="text-2xl font-bold mb-4">My Recent Work</h2>
-      <p className='text-lg m-3 leading-8 py-2 px-5'>
-              Here are some of the past projects I&apos;ve worked on. 
-              </p>
-      
-      <div className='bg-red-300 flex'> test</div>
+          <section className="bg-gray-100 py-16">
+      <div className="text-gray-800 text-center dark:text-slate-100 max-w-4xl mx-auto p-4 bg-gray-200 rounded-xl">
+        <h2 className="text-2xl font-bold mb-4">My Recent Work</h2>
+        <p>
+          Here are projects I've worked on previously
+        </p>
       </div>
     </section>
 
